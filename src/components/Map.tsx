@@ -1,8 +1,12 @@
 import { useNavigate, useSearchParams } from "react-router-dom";
 import styles from "./Map.module.css";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { useState } from "react";
 
 function Map() {
   const navigate = useNavigate();
+
+  const [mapPosition, setMapPosition] = useState([-27.66412, -48.711801]);
 
   const [searchParams, setSearchParams] = useSearchParams();
 
@@ -12,17 +16,26 @@ function Map() {
   return (
     <div
       className={styles.mapContainer}
-      onClick={() => {
-        navigate("form");
-      }}
+      // onClick={() => {
+      //   navigate("form");
+      // }}
     >
-      <h1>Map</h1>
-      <h2>
-        {lat} {lng}
-      </h2>
-      <button onClick={() => setSearchParams({ lat: 25, lng: 50 })}>
-        change pos
-      </button>
+      <MapContainer
+        className={styles.map}
+        center={mapPosition}
+        zoom={13}
+        scrollWheelZoom={true}
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker position={mapPosition}>
+          <Popup>
+            Home <br /> R. Ver. Jose francisco leonel, 330.
+          </Popup>
+        </Marker>
+      </MapContainer>
     </div>
   );
 }
