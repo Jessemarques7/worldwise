@@ -11,6 +11,138 @@
         "lat": "-27.664030955902913",
         "lng": "-48.711715936660774"
       }
+    },
+    {
+      "id": "4184",
+      "cityName": "Dubai",
+      "country": "United Arab Emirates (the)",
+      "emoji": "🇦🇪",
+      "date": "2024-05-12T23:03:36.874Z",
+      "notes": "",
+      "position": {
+        "lat": "25.113152760178508",
+        "lng": "55.13982295989991"
+      }
+    },
+    {
+      "id": "8f1e",
+      "cityName": "Tokyo",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2024-05-12T23:05:05.048Z",
+      "notes": "",
+      "position": {
+        "lat": "35.70331072091977",
+        "lng": "139.80171203613284"
+      }
+    },
+    {
+      "id": "0c53",
+      "cityName": "Monaco",
+      "country": "Monaco",
+      "emoji": "🇲🇨",
+      "date": "2024-05-12T23:05:23.484Z",
+      "notes": "",
+      "position": {
+        "lat": "43.731351993490634",
+        "lng": "7.422466278076173"
+      }
+    },
+    {
+      "id": "4d1b",
+      "cityName": "Miami",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-05-12T23:06:17.930Z",
+      "notes": "",
+      "position": {
+        "lat": "25.760319754713887",
+        "lng": "-80.20843505859376"
+      }
+    },
+    {
+      "id": "46f5",
+      "cityName": "Cape Town",
+      "country": "South Africa",
+      "emoji": "🇿🇦",
+      "date": "2024-05-12T23:06:32.408Z",
+      "notes": "",
+      "position": {
+        "lat": "-34.07086232376631",
+        "lng": "18.500976562500004"
+      }
+    },
+    {
+      "id": "77a6",
+      "cityName": "Singapore",
+      "country": "Singapore",
+      "emoji": "🇸🇬",
+      "date": "2024-05-12T23:06:48.971Z",
+      "notes": "",
+      "position": {
+        "lat": "1.3511930983018892",
+        "lng": "103.77685546875001"
+      }
+    },
+    {
+      "id": "ce07",
+      "cityName": "Zurich",
+      "country": "Switzerland",
+      "emoji": "🇨🇭",
+      "date": "2024-05-13T12:56:54.610Z",
+      "notes": "",
+      "position": {
+        "lat": "47.37975438400816",
+        "lng": "8.539123535156252"
+      }
+    },
+    {
+      "id": "d834",
+      "cityName": "Seoul",
+      "country": "Korea (the Republic of)",
+      "emoji": "🇰🇷",
+      "date": "2024-05-13T12:57:17.927Z",
+      "notes": "",
+      "position": {
+        "lat": "37.496652341233364",
+        "lng": "127.06787109375001"
+      }
+    },
+    {
+      "id": "d2df",
+      "cityName": "Hong Kong",
+      "country": "Hong Kong",
+      "emoji": "🇭🇰",
+      "date": "2024-05-13T12:57:26.809Z",
+      "notes": "",
+      "position": {
+        "lat": "22.38563480185718",
+        "lng": "114.08203125000001"
+      }
+    },
+    {
+      "id": "7f4e",
+      "cityName": "Luxembourg",
+      "country": "Luxembourg",
+      "emoji": "🇱🇺",
+      "date": "2024-05-13T12:59:39.354Z",
+      "notes": "",
+      "position": {
+        "lat": "49.60715036117516",
+        "lng": "6.126251220703125"
+      }
+    },
+    {
+      "id": "2e4f",
+      "cityName": "Los Angeles",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-05-13T13:00:00.300Z",
+      "notes": "",
+      "position": {
+        "lat": "33.87041555094183",
+        "lng": "-118.15795898437501"
+      }
     }
   ]
 }
